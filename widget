@@ -1,0 +1,66 @@
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://tw.tradingview.com/markets/indices/" rel="noopener" target="_blank"><span class="blue-text">股票</span></a> <span class="blue-text">和</span> <a href="https://tw.tradingview.com/markets/currencies/" rel="noopener" target="_blank"><span class="blue-text">外匯</span></a>由TradingView提供</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+  {
+  "width": "100%",
+  "height": "100%",
+  "symbolsGroups": [
+    {
+      "name": "股票",
+      "originalName": "Indices",
+      "symbols": [
+        {
+          "name": "TWSE:0050",
+          "displayName": "元大50"
+        },
+        {
+          "name": "TWSE:2890",
+          "displayName": "永豐金"
+        },
+        {
+          "name": "TWSE:00878",
+          "displayName": "國泰高股息"
+        },
+        {
+          "name": "TWSE:2834",
+          "displayName": "臺企銀"
+        }
+      ]
+    },
+    {
+      "name": "外匯",
+      "originalName": "Forex",
+      "symbols": [
+        {
+          "name": "FX_IDC:USDTWD",
+          "displayName": "USD/TWD"
+        },
+        {
+          "name": "FX_IDC:JPYTWD",
+          "displayName": "JPY/TWD"
+        },
+        {
+          "name": "FX_IDC:KRWTWD",
+          "displayName": "KRW/TWD"
+        },
+        {
+          "name": "FX_IDC:CNYTWD",
+          "displayName": "CNY/TWD"
+        },
+        {
+          "name": "FX_IDC:EURTWD",
+          "displayName": "EUR/TWD"
+        }
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "light",
+  "isTransparent": true,
+  "locale": "zh_TW"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
